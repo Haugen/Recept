@@ -29,26 +29,6 @@ $(document).ready(function() {
     helper: 'fixHelper',
   });
 
-  // The markup for a new row.
-  function addNewRow(rowNr) {
-    var row  = '<tr class="row-' + rowNr + '">';
-    row     += '<td class="reorder" width="4%">*</td>';
-    row     += '<td width="15%"><input type="text" name="amount-' + rowNr + '" class="form-control"></td>';
-    row     += '<td width="15%">';
-    row     += '<select name="unit-' + rowNr + '" class="form-control">';
-    row     += '<option value="mg">mg</option>';
-    row     += '<option value="dl">dl</option>';
-    row     += '<option value="ms">ms</option>';
-    row     += '<option value="kr">kr</option>';
-    row     += '<option value="l">l</option>';
-    row     += '</select>';
-    row     += '</td>';
-    row     += '<td><input type="text" name="ingredient-' + rowNr + '" class="form-control"></td>';
-    row     += '<td width="9%"><a href="#" class="btn btn-danger delete-row">X</a></td>';
-    row     += '</tr>';
-
-    return row;
-  }
 });
 
 // To be able to react on dynamically added rows, the handle needs to be outside
