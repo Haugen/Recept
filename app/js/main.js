@@ -33,7 +33,7 @@ $(document).ready(function() {
   function addNewRow(rowNr) {
     var row  = '<tr class="row-' + rowNr + '">';
     row     += '<td class="reorder" width="4%">*</td>';
-    row     += '<td width="15%"><input type="text" name="amount-' + rowNr + '" class="form-control"></td>';
+    row     += '<td width="15%"><input type="text" name="amount-' + rowNr + '" class="form-control "></td>';
     row     += '<td width="15%">';
     row     += '<select name="unit-' + rowNr + '" class="form-control">';
     row     += '<option value="mg">mg</option>';
