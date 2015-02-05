@@ -1,8 +1,8 @@
-<div class="col-xs-12 col-md-6">
+<div class="col-xs-12 col-md-6 col-md-offset-3">
   <h1>Lägg till recept</h1>
   <form>
     <input type="text" name="title" class="form-control" placeholder="Titel">
-    <h2>Ingridienser</h2>
+    <h2>Ingredienser</h2>
     <table class="table" id="ingredients-table">
       <thead>
         <tr>
